@@ -1,15 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4df04fe-aa3d-40cb-b78b-4303e030b6d9" name="Changes" comment="" />
+    <list default="true" id="a4df04fe-aa3d-40cb-b78b-4303e030b6d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB.wXrrcg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB.wXrrcg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB.wXrrcg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB.wXrrcg/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB.wXrrcg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB4.k92D6g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB4.k92D6g/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB4.k92D6g/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7b459a0-8910-4209-9f65-96230c78af12/storage_v2/_src_/database/FoodStoreDB4.k92D6g/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/AssignmentPRJ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Demo_asss.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Ex1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Ex2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/ExerciseServlet1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Pe_demo1_q1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Pe_demo1_q2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Pe_demo1_q3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Pe_demo2_q1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Pe_demo2_q2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Pe_demo2_q3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Q1_HE172583.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Q2_HE172583.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/Q3_HE172583.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/ROOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/assignment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/assignment1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/assignment2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/calculate_el.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/demo2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/demo3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/demo_ass2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/ex_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/exjsp1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/javaBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/loginpage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/question1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/question2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/question3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/sql_con.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/Catalina/localhost/workshop1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/your-old-project/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DAL/CategoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DAL/DBcontext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DAL/OrderDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DAL/ProductDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DAL/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/addCategoryAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/addProductAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/categoryAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/deleteCategoryAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/deleteProductAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/editCategoryAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/editProductAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/editUserAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/listOrderAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/listProductAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/listUserAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/loginAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/logoutAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/orderdetailAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/searchOByUNameAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/searchPByNameAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/searchUserbyNameAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/admin/updateStatusOrderAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/addtoCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/cancelOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/cartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/changeOrderInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/changepasswordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/decreaseQuantityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/deletefromCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/listOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/orderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/orderdetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/updateQuantityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/updateUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/user/userInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/categoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/detailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/feedbackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/homeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/listSaleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/loginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/logoutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/productController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/registerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/searchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/sortProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/web/storeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/filter/DefaultFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/filter/LoginAdminFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/chart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/order_Details.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/product_detail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F2_projectFinalCopy1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/F2_projectFinalCopy1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conf/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conf/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DAL/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DAL/DBcontext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/DBcontext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DAL/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DAL/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DAL/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/addCategoryAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/addCategoryAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/addProductAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/addProductAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/categoryAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/categoryAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/deleteCategoryAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/deleteCategoryAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/deleteProductAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/deleteProductAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/editCategoryAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/editCategoryAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/editProductAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/editProductAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/editUserAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/editUserAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/listOrderAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/listOrderAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/listProductAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/listProductAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/listUserAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/listUserAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/loginAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/loginAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/logoutAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/logoutAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/orderdetailAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/orderdetailAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/searchOByUNameAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/searchOByUNameAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/searchPByNameAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/searchPByNameAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/searchUserbyNameAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/searchUserbyNameAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/admin/updateStatusOrderAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/updateStatusOrderAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/addtoCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/addtoCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/cancelOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/cancelOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/cartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/cartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/changeOrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/changeOrderInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/changepasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/changepasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/decreaseQuantityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/decreaseQuantityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/deletefromCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/deletefromCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/listOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/listOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/orderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/orderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/orderdetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/orderdetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/updateQuantityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/updateQuantityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/updateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/updateUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/user/userInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/userInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/categoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/categoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/detailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/detailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/feedbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/feedbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/homeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/listSaleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/listSaleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/logoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/logoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/productController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/productController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/registerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/registerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/searchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/searchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/sortProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/sortProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/controller/web/storeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/web/storeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/filter/DefaultFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/DefaultFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/filter/LoginAdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/LoginAdminFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/order_Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/order_Details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/product_detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/product_detail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/model/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/admin_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/admin_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/login_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/manager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/registration_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/registration_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/vendor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/241020997_1212170709193367_7947559041376707490_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/241020997_1212170709193367_7947559041376707490_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/271837283_3289726151273645_1969370421537872590_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/271837283_3289726151273645_1969370421537872590_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/Cha-Gio-Re-Nhan-Tom-768x541.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/Cha-Gio-Re-Nhan-Tom-768x541.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/Khoai-mon-le-pho-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/Khoai-mon-le-pho-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/Khoai-mon-le-pho-nhan-dau-do-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/Khoai-mon-le-pho-nhan-dau-do-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/Khoai-mon-le-pho-nhan-hai-san-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/Khoai-mon-le-pho-nhan-hai-san-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/banh-chuoi-nhan-dua-768x596.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/banh-chuoi-nhan-dua-768x596.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/banh-chuoi-nhan-que-768x596.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/banh-chuoi-nhan-que-768x596.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/banh-khoai-ken-vang-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/banh-khoai-ken-vang-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/banh-khoai-que-huong-luc-lac-768x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/banh-khoai-que-huong-luc-lac-768x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/ca-trung-768x552.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/ca-trung-768x552.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/cha-gio-hai-san-768x593.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/cha-gio-hai-san-768x593.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/cha-gio-ram-con-tom-768x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/cha-gio-ram-con-tom-768x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/cha-gio-re-con-tom-768x541.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/cha-gio-re-con-tom-768x541.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/cha-muc-gia-tay-768x502.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/cha-muc-gia-tay-768x502.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/khoai-mon-le-pho-huong-com-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/khoai-mon-le-pho-huong-com-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/khoai-mon-le-pho-nhan-thit-bo-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/khoai-mon-le-pho-nhan-thit-bo-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/khoai-mon-le-pho-nhan-tom-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/khoai-mon-le-pho-nhan-tom-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nem-gia-dinh-dac-biet-768x550.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nem-gia-dinh-dac-biet-768x550.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nem-gia-dinh-thit-bo-768x596.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nem-gia-dinh-thit-bo-768x596.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nem-gia-dinh-tom-cua-768x596.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nem-gia-dinh-tom-cua-768x596.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nem-kem-bo-768x576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nem-kem-bo-768x576.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nem-khoai-tay-768x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nem-khoai-tay-768x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nem-nam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nem-nam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nieu-ca-basa-768x512.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nieu-ca-basa-768x512.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/nieu-ca-kim-768x512.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/nieu-ca-kim-768x512.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/pizza-nhan-hai-san-768x544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/pizza-nhan-hai-san-768x544.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/pizza-nhan-pho-mai-768x544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/pizza-nhan-pho-mai-768x544.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/pizza-nhan-thit-768x544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/pizza-nhan-thit-768x544.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/pizza-nhan-thit-nguoi-768x544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/pizza-nhan-thit-nguoi-768x544.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Food_img/pizza-nhan-xuc-xich-768x544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/Food_img/pizza-nhan-xuc-xich-768x544.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/banner4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/big_banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/big_banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/big_banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/big_banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/big_banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/big_banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/big_banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/big_banner4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/ca-basa-kho-mang.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/ca-basa-kho-mang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/cach-lam-ca-hoi-ap-chao-sot-bo-290x180-c-default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/cach-lam-ca-hoi-ap-chao-sot-bo-290x180-c-default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/huong-dan-cach-nau-bo-sot-vang-khoai-tay-ca-rot-290x180-c-default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/huong-dan-cach-nau-bo-sot-vang-khoai-tay-ca-rot-290x180-c-default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/pngwing.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/pngwing.com.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/admin/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/admin/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/hamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/hamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery-1.11.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/modernizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/category-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/category-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/dashboard-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/dashboard-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/listorder-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/listorder-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/listuser-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/listuser-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/login-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/login-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/orderdetail-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/orderdetail-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/product-admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/product-admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin/sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/feedback.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/feedback.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/forget_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/forget_password.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/saleproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/saleproduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/store.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/store.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/user/cart-user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/user/cart-user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/user/detail-order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/user/detail-order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/user/detail-user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/user/detail-user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/user/header-user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/user/header-user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/user/order-user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/user/order-user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/user/sidebar-user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/user/sidebar-user.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gAFX7EOKLp1PmpiayuuYhmi1XL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,18 +297,90 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DBcontext.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Tomcat: EXE2.executor": "Run",
+    "Smart Tomcat.Tomcat: your-old-project.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Ky4 SP24/Assignment_PRJ/F2_projectFinalCopy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40114942",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver",
+      "sqlserver.localdb"
+    ]
   }
 }]]></component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: EXE2">
+    <configuration name="DBcontext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAL.DBcontext" />
+      <module name="GreenecoHeaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat: EXE2" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\Asus\.SmartTomcat\FoodStore\your-old-project" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.17" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/Tomcat 10.1" />
+          <option name="version" value="10.1.17.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="GreenecoHeaven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DBcontext" />
+      <item itemvalue="Smart Tomcat.Tomcat: EXE2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBcontext" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -41,6 +393,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715132511462</updated>
       <workItem from="1715132512493" duration="138000" />
+      <workItem from="1748359879333" duration="3344000" />
     </task>
     <servers />
   </component>

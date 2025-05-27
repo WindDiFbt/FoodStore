@@ -1,0 +1,44 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Compiled files
+*.class
+*.war
+*.ear
+
+# Logs
+*.log
+log/
+logs/
+
+# Build files
+build/
+out/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+src/main/webapp/META-INF/context.xml
+src/main/resources/application.properties
+
+# Database
+*.mdb
+*.ldb
+*.sqlite
+*.db
