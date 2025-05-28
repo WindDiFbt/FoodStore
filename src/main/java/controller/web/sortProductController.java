@@ -49,7 +49,7 @@ public class sortProductController extends HttpServlet {
         }
         int count = pdao.getTotalProduct();
         int endPage = count / 16;
-        if (count % 2 != 0) {
+        if (count % 16 != 0) {
             endPage++;
         }
         // get 20 product

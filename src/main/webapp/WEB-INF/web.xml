@@ -37,10 +37,6 @@
         <servlet-class>controller.web.searchController</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>loadMoreController</servlet-name>
-        <servlet-class>.loadMoreController</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>storeController</servlet-name>
         <servlet-class>controller.web.storeController</servlet-class>
     </servlet>
@@ -207,10 +203,6 @@
     <servlet-mapping>
         <servlet-name>searchController</servlet-name>
         <url-pattern>/search</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>loadMoreController</servlet-name>
-        <url-pattern>/loadmore</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>storeController</servlet-name>

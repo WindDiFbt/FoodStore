@@ -94,7 +94,7 @@
                                             <td>${product.product_id}</td>
                                             <td>${product.category_id}</td>
                                             <td>
-                                                <img style="width: 50%" src="../../${product.image}">
+                                                <img style="width: 50%" src="${product.image}">
                                             </td>
                                             <td>${product.name}</td>
                                             <td>${product.weight}</td>
@@ -103,7 +103,7 @@
                                             <td>${product.created_at}</td>
                                             <td>${product.updated_at}</td>
                                             <td>
-                                                <a onclick="editProductInfo('${product.product_id}', '${product.name}', '${product.category_id}', '${product.image}', '${product.weight}',
+                                                <a onclick="editProductInfo('${product.product_id}', '${product.name}', '${product.category_id}', '${product.weight}',
                                                                 '${product.price}', '${product.discount}', '${product.ingredient}', '${product.user_manual}', '${product.more_info}')" style=" font-size: 15px; color: green" 
                                                    data-bs-toggle="modal" data-bs-target="#editProductModal" title="Edit"> <i class="lni lni-pencil"></i></a>
                                                 <a onclick="ProductInfo('${product.product_id}', '${product.name}')" style=" font-size: 15px; color: red"
@@ -123,7 +123,7 @@
         <div id="addProductModal" class="modal fade">
             <div class="modal-dialog" style="margin-left: 450px;">
                 <div class="modal-content modal-add" style="width: 150%;">
-                    <form action="addProductAdmin" method="post">
+                    <form action="addProductAdmin" method="post" enctype="multipart/form-data">
                         <div class="modal-header">						
                             <h4 class="modal-title">Add Product</h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -143,7 +143,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Image</label>
-                                <input name="image" type="text" class="form-control" required>
+                                <input name="image" type="file" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label>Weight</label>
@@ -208,7 +208,7 @@
         <div id="editProductModal" class="modal fade">
             <div class="modal-dialog" style="margin-left: 450px;">
                 <div class="modal-content modal-add" style="width: 150%;">
-                    <form action="editProductAdmin" method="post">
+                    <form action="editProductAdmin" method="post" enctype="multipart/form-data">
                         <div class="modal-header">						
                             <h4 class="modal-title">Edit Product</h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -229,7 +229,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Image</label>
-                                <input name="image" type="text" class="form-control" id="imageInput2" required>
+                                <input name="image" type="file" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label>Weight</label>
@@ -271,11 +271,10 @@
                 document.getElementById('product_nameInput').textContent = name;
             }
 
-            function editProductInfo(product_id, name, category_id, image, weight, price, discount, ingredient, user_manual, more_info) {
+            function editProductInfo(product_id, name, category_id, weight, price, discount, ingredient, user_manual, more_info) {
                 document.getElementById('product_idInput2').value = product_id;
                 document.getElementById('nameInput2').value = name;
                 document.getElementById('category_idInput2').value = category_id;
-                document.getElementById('imageInput2').value = image;
                 document.getElementById('weightInput2').value = weight;
                 document.getElementById('priceInput2').value = price;
                 document.getElementById('discountInput2').value = discount;

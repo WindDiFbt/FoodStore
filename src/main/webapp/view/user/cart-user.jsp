@@ -43,7 +43,7 @@
                                     <div class="row d-flex justify-content-between align-items-center">
                                         <div class="col-md-2 col-lg-2 col-xl-2">
                                             <img
-                                                src="../../${list.product.image}"
+                                                src="${list.product.image}"
                                                 class="img-fluid rounded-3" >
                                         </div>
                                         <div class="col-md-3 col-lg-3 col-xl-3">

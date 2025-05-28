@@ -107,7 +107,7 @@ public class loginController extends HttpServlet {
                     session.setAttribute("user", u);
                     session.setMaxInactiveInterval(60 * 60 * 24);
                 }
-                response.sendRedirect("/assignment/home");
+                response.sendRedirect("/home");
             }
         }
     }

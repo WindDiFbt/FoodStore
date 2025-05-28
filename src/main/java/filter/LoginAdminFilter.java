@@ -97,14 +97,7 @@ public class LoginAdminFilter implements Filter {
      * @exception ServletException if a servlet error occurs
      */
     public void doFilter(ServletRequest request, ServletResponse response,
-            FilterChain chain)
-            throws IOException, ServletException {
-
-        if (debug) {
-            log("LoginAdminFilter:doFilter()");
-        }
-
-        doBeforeProcessing(request, response);
+                         FilterChain chain) throws IOException, ServletException {
 
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
@@ -114,34 +107,13 @@ public class LoginAdminFilter implements Filter {
         if (url.endsWith("Admin") || url.endsWith("dashboard-admin.jsp")) {
             if (session.getAttribute("admin") == null) {
                 httpResponse.sendRedirect(httpRequest.getContextPath() + "/view/admin/login-admin.jsp");
+                return;
             }
         }
 
-        Throwable problem = null;
-        try {
-            chain.doFilter(request, response);
-        } catch (Throwable t) {
-            // If an exception is thrown somewhere down the filter chain,
-            // we still want to execute our after processing, and then
-            // rethrow the problem after that.
-            problem = t;
-            t.printStackTrace();
-        }
-
-        doAfterProcessing(request, response);
-
-        // If there was a problem, we want to rethrow it if it is
-        // a known type, otherwise log it.
-        if (problem != null) {
-            if (problem instanceof ServletException) {
-                throw (ServletException) problem;
-            }
-            if (problem instanceof IOException) {
-                throw (IOException) problem;
-            }
-            sendProcessingError(problem, response);
-        }
+        chain.doFilter(request, response);
     }
+
 
     /**
      * Return the filter configuration object for this filter.

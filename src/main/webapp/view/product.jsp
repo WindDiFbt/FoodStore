@@ -101,14 +101,20 @@
         </div>
     </section>
 
-    <div style="display: flex; justify-content: center">
-        <c:forEach begin="1" end="${endP}" var="i">
-            <a class="btn text-dark mx-0" href="product?index=${i}">${i}</a>            
-        </c:forEach>
-        <c:forEach begin="1" end="${endS}" var="i">
-            <a class="btn text-dark mx-0" href="sortproduct?sort=${sortoption}&index=${i}">${i}</a>            
-        </c:forEach>
+    <div style="display: flex; justify-content: center; padding-bottom: 20px">
+        <c:if test="${not empty endP}">
+            <c:forEach begin="1" end="${endP}" var="i">
+                <a class="btn text-dark mx-0" href="product?index=${i}">${i}</a>
+            </c:forEach>
+        </c:if>
+        <c:if test="${not empty endS}">
+            <c:forEach begin="1" end="${endS}" var="i">
+                <a class="btn text-dark mx-0" href="sortproduct?sort=${sortoption}&index=${i}">${i}</a>
+            </c:forEach>
+        </c:if>
     </div>
+    <%= request.getAttribute("endP") %>
+
     <jsp:include page="footer.jsp"></jsp:include>
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
