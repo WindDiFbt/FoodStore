@@ -4,6 +4,7 @@
  */
 package controller.web;
 
+import DAL.CategoryDAO;
 import DAL.ProductDAO;
 import java.io.IOException;
 import jakarta.servlet.ServletException;
@@ -12,6 +13,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.List;
+
+import model.category;
 import model.product;
 
 /**
@@ -33,6 +36,10 @@ public class listSaleController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         ProductDAO dao = new ProductDAO();
+        CategoryDAO cdao = new CategoryDAO();
+        //get all category
+        List<category> listCategory = cdao.getAllCategory();
+        request.setAttribute("listCategory", listCategory);
         List<product> list = dao.getAllProduct();
         List<product> sale = new ArrayList<>();
         for (product object : list) {
